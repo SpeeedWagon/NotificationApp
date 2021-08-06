@@ -16,8 +16,6 @@ function App() {
         body: "Hello world",
         id: 1,
         schedule: {
-          // at: new Date(Date.now() + 1000 * 1),
-
           repeats: true,
           every: "minute",
           allowWhileIdle: true,
